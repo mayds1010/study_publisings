@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <!-- https://mayds1010.github.io/study_publisings/index.html?name=&id=&password=&pass=&%EC%9D%B4%EB%A9%94%EC%9D%BC%EC%A3%BC%EC%86%8C=
+    %EC%9D%B4%EB%A9%94%EC%9D%BC%EC%A3%BC%EC%86%8C%EC%84%A0%ED%83%9D&%ED%9C%B4%EB%8C%80%EB%B2%88%ED%98%B8=010&%EC%A0%84%ED%99%94%EB%B2%88%
+    ED%98%B8=%EC%84%A0%ED%83%9D&zip_code=&adress=&adress2= -->
+  <body>
+    <h3>
+      <a href="../../index.html" target="_self">Index</a>
+    </h3>
+    <h3>sign_up</h3>
+    <form action="../../index.html" method="get">
+      <table border="1">
+        <tbody>
+          <tr>
+            <th colspan="4">기본정보</th>
+          </tr>
+          <tr>
+            <th>이름</th>
+            <td><input type="text" name="name" /></td>
+          </tr>
+          <tr>
+            <th>아이디</th>
+            <td>
+              <input type="text" name="id" id="" />
+              <button type="submit">v아이디중복확인</button>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6~16자까지
+                영문자(소문자),숫자 사용 가능합니다
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>비밀번호</th>
+            <td>
+              <input type="text" name="password" id="" />
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6~16자까지
+                영문자(대소문자),숫자 및 특수문자 사용 가능합니다
+              </div>
+              <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3자리연속또는 같은 문자,
+                아이디는 사용하실 수 없습니다.
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>비밀번호 확인</th>
+            <td>
+              <input type="text" name="pass" id="" />
+            </td>
+          </tr>
+          <tr>
+            <th>이메일</th>
+            <td>
+              <input type="text" />@<input type="text" />
+              <select name="이메일주소" id="">
+                <option value="이메일주소선택">이메일주소선택</option>
+                <option value="gamil.com">gamil.com</option>
+                <option value="naver.com">naver.com</option>
+                <option value="hanmail.net">hanmail.net</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>연락처</th>
+            <td>
+              <span>휴대전화</span>
+              <select name="휴대번호" id="">
+                <option value="010">010</option>
+                <option value="011">011</option>
+                <option value="016">016</option></select
+              >- <input type="number" />-<input type="number" />
+              <br />
+              <span>일반전화</span>
+              <select name="전화번호" id="">
+                <option value="선택">선택</option>
+                <option value="02">02</option>
+                <option value="031">031</option></select
+              >- <input type="number" />-<input type="number" />
+              <div>연락처는 둘 중 하나만 입력해도 됩니다.</div>
+            </td>
+          </tr>
+          <tr>
+            <th>우편번호</th>
+            <td>
+              <input type="text" name="zip_code" />
+              <button type="submit">주소검색</button>
+            </td>
+          </tr>
+          <tr>
+            <th>주소</th>
+            <td>
+              <div>
+                <input type="text" name="adress" size="80" />
+              </div>
+              <div>
+                <input type="text" name="adress2" />
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th>정보수신 여부</th>
+            <td>
+              <div>
+                서비스 및 이벤트 소식을
+                <input
+                  type="checkbox"
+                  name="receive_mail"
+                  value="mail"
+                  id="receive_mail_id"
+                />Email로 수신하겠습니다.
+                <input
+                  type="checkbox"
+                  name="receive_sms"
+                  value="sms"
+                  id="receive_sms_id"
+                />SMS로 수신하겠습니다.
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button type="submit">저장</button>
+    </form>
+  </body>
+</html>
