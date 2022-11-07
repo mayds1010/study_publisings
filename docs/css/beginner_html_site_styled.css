@@ -11,9 +11,10 @@ h1 {
   background-color: orange;
   border: 5px solid black;
 }
-.padding {
-  padding: 0px 30px 30px 600px;
-}
-.background-color {
+
+body {
+  border: 5px;
+  margin: auto;
+  padding: 0px 30px 30px 550px;
   background-color: #00539f;
 }
