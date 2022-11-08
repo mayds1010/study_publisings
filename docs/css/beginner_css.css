@@ -16,9 +16,7 @@
   margin: 20px 10px 0px 0px;
   padding: 8px;
   width: 120px;
-  border: solid;
-  border-width: 0px 25px 0px 0px;
-  border-color: black;
+  border-right: 20px solid black;
 }
 .center1 {
   font-size: 40px;
