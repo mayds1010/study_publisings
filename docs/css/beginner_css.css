@@ -1,14 +1,13 @@
 .container {
   display: flex;
   flex-direction: row;
-}
-.flex_box {
   font-weight: 500;
   background-color: #d8da3d;
   margin: auto;
   width: 600px;
   height: 500px;
 }
+
 .item {
   list-style-type: none;
   padding: 0px;
@@ -25,17 +24,17 @@
   width: 110px;
 }
 
-.center {
+.center1 {
   color: rgb(128, 0, 128);
   margin: 20px 0px 20px 10px;
   font-weight: 600;
   font-size: 30px;
 }
-.centers {
+.center2 {
   color: rgb(128, 0, 128);
-  margin: 10px 0px 100px 20px; /*아래를 크게 해야 커짐 */
+  margin: 10px 0px 100px 20px; /*아래를 크게 해야 커짐*/
 }
-.centers > div {
+.center2 > div {
   margin: 15px;
 }
 .date {
