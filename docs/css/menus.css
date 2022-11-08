@@ -15,7 +15,7 @@ ul {
 }
 li {
   display: inline-block;
-  padding: 5px 30px;
+  padding: 20px 30px;
   font-size: 20px;
 }
 .text-weight {
@@ -32,4 +32,7 @@ li {
 } 
 .text-align {
   text-align: center;
-}*/
+}
+
+
+ */
