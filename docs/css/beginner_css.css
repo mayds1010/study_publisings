@@ -1,45 +1,41 @@
 .container {
+  background-color: #d8da3d;
   display: flex;
   flex-direction: row;
-  font-weight: 500;
-  background-color: #d8da3d;
-  margin: auto;
-  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 20px 10px 10px;
+  width: 650px;
   height: 500px;
 }
-
 .item {
   list-style-type: none;
-  padding: 0px;
-  margin: 30px;
 }
-
 .item > li {
-  background-color: white;
+  background-color: aliceblue;
+  margin: 10px 10px 0px 0px;
+  padding: 8px;
+  width: 120px;
+  border: solid;
+  border-width: 0px 25px 0px 0px;
   border-color: black;
-  border-style: solid;
-  border-width: 0px 15px 0px 0px;
-  margin: 10px;
-  padding: 5px;
-  width: 110px;
 }
-
 .center1 {
+  font-size: 45px;
   color: rgb(128, 0, 128);
-  margin: 20px 0px 20px 10px;
-  font-weight: 600;
-  font-size: 30px;
+  margin: 0px 0px 50px 20px;
 }
 .center2 {
   color: rgb(128, 0, 128);
-  margin: 10px 0px 100px 20px; /*아래를 크게 해야 커짐*/
+  font-size: 20px;
+  margin: 0px 0px 50px 20px;
 }
 .center2 > div {
-  margin: 15px;
+  margin: 10px;
 }
 .date {
-  border: 1px dotted rgb(128, 0, 128);
-  border-width: 1px 0px 0px 0px;
+  border: 1px dotted;
+  border-width: 2px 0px 0px 0px;
 }
 .text-decoration {
   text-decoration: none;
