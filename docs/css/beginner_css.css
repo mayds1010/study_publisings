@@ -13,7 +13,7 @@
 }
 .item > li {
   background-color: aliceblue;
-  margin: 10px 10px 0px 0px;
+  margin: 20px 10px 0px 0px;
   padding: 8px;
   width: 120px;
   border: solid;
@@ -21,7 +21,8 @@
   border-color: black;
 }
 .center1 {
-  font-size: 45px;
+  font-size: 40px;
+  font-weight: 600;
   color: rgb(128, 0, 128);
   margin: 0px 0px 50px 20px;
 }
