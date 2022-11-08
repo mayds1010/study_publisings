@@ -1,0 +1,12 @@
+.contain {
+  display: flex;
+  margin: auto;
+  background-color: rgb(216, 218, 61);
+  width: 500px;
+}
+body {
+  display: block;
+}
+.item {
+  width: 200px;
+}
