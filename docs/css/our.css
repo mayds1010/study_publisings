@@ -3,9 +3,11 @@
 } /*먼저 틀을 만들어 주기 마지막에 지우면 됨 */
 .outline {
   border: 2px solid black;
-  margin: 0px 10% 0px 10%;
+  /*margin: 0px 10% 0px 10%;*/
+  margin: 0px auto 0px auto;
   background-color: rgb(255, 149, 0);
   padding: 10px;
+  width: 500px;
 }
 .text-align {
   text-align: center;
