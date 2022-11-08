@@ -3,10 +3,11 @@
   flex-direction: row;
 }
 .flex_box {
-  font-weight: 600;
+  font-weight: 500;
   background-color: #d8da3d;
   margin: auto;
-  width: 650px;
+  width: 600px;
+  height: 500px;
 }
 .item {
   list-style-type: none;
@@ -17,24 +18,24 @@
 .item > li {
   background-color: white;
   border-style: solid;
-  border-width: 0px 20px 0px 0px;
+  border-width: 0px 15px 0px 0px;
   border-color: black;
   margin: 10px;
   padding: 5px;
   width: 110px;
 }
 
-.title {
+.center {
   font-size: 30px;
   font-weight: 600;
   color: rgb(128, 0, 128);
   margin: 20px 0px 20px 10px;
 }
-.content {
+.centers {
   color: rgb(128, 0, 128);
   margin: 10px 0px 100px 20px; /*아래를 크게 해야 커짐 */
 }
-.content > div {
+.centers > div {
   margin: 15px;
 }
 .date {
