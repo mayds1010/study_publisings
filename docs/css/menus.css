@@ -1,12 +1,12 @@
 ul {
   list-style-type: none;
   display: inline-block;
-  font-size: 20px;
 }
 
 li {
   display: inline-block;
   padding: 5px 30px;
+  font-size: 20px;
 }
 .text-weight {
   font-size: 40px;
@@ -18,3 +18,7 @@ li {
 .background-color {
   background-color: yellow;
 }
+.margin {
+  margin: 0px auto 0px auto;
+}
+/* */
