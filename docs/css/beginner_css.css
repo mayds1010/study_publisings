@@ -3,15 +3,15 @@
   flex-direction: row;
 }
 .flex_box {
-  font-weight: 700;
+  font-weight: 600;
   background-color: #d8da3d;
   margin: auto;
-  width: 700px;
+  width: 650px;
 }
 .item {
   list-style-type: none;
   padding: 0px;
-  margin: 50px 0px 0px 0px;
+  margin: 30px;
 }
 
 .item > li {
@@ -28,11 +28,11 @@
   font-size: 30px;
   font-weight: 600;
   color: rgb(128, 0, 128);
-  margin: 30px 0px 30px 20px;
+  margin: 20px 0px 20px 10px;
 }
 .content {
   color: rgb(128, 0, 128);
-  margin: 10px 0px 150px 20px; /*아래를 크게 해야 커짐 */
+  margin: 10px 0px 100px 20px; /*아래를 크게 해야 커짐 */
 }
 .content > div {
   margin: 15px;
@@ -40,7 +40,6 @@
 .date {
   border: 1px dotted rgb(128, 0, 128);
   border-width: 1px 0px 0px 0px;
-  padding: 10px 0px;
 }
 .text-decoration {
   text-decoration: none;
