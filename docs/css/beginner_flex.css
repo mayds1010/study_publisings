@@ -2,13 +2,16 @@
 .outline-container {
   display: flex;
   justify-content: center;
-  background-color: aquamarine;
-  padding: 5px 50px 50px 0px;
-  margin: 5px 250px 0px 250px;
-  height: 250px;
+  background-color: rgb(228, 150, 217);
+  padding: 5px 0px 10px 0px;
+  width: 600px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .left-nav {
   width: 150px;
+  padding-top: 20px;
 }
 .left-nav > div {
   background-color: blanchedalmond;
@@ -22,12 +25,12 @@
 }
 .title {
   color: blueviolet;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
 }
 .conten > div {
   font-size: 20px;
-  color: blue;
+  color: rgb(103, 103, 222);
 }
 .date {
   border: 2px dotted royalblue;
@@ -42,4 +45,6 @@
 }
 .right-contents {
   width: 400px;
-}*/
+}
+
+
