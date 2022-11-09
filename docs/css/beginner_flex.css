@@ -1,0 +1,14 @@
+* {
+  border: 1px solid gray;
+  font-size: 10px;
+} /*기본설정 */
+.outline-container {
+  display: flex;
+  justify-content: center;
+}
+.left-nav {
+  width: 150px;
+}
+.right-contents {
+  width: 400px;
+}
