@@ -1,12 +1,19 @@
-.contain {
-  display: flex;
-  margin: auto;
-  background-color: rgb(216, 218, 61);
-  width: 500px;
+table {
+  margin-left: auto;
+  margin-right: auto;
 }
-body {
-  display: block;
+tr > td {
+  background-color: blanchedalmond;
 }
-.item {
-  width: 200px;
+th {
+  background-color: blanchedalmond;
+}
+tbody > tr > td {
+  background-color: salmon;
+}
+.width {
+  padding-right: 50px;
+}
+.center {
+  text-align: center;
 }
