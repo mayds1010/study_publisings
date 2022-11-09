@@ -1,38 +1,19 @@
-ul {
-  list-style-type: none;
-  display: inline-block;
+* {
+  border: 1px dotted gray;
+}
+.menu-outline {
+  background-color: yellow;
   text-align: center;
 }
-ul {
-  /*가운데 정렬*/
-  display: block;
-  list-style-type: none;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 70px;
-}
-li {
+.ul-flat {
   display: inline-block;
-  padding: 20px 30px;
-  font-size: 20px;
+  margin: 10px auto 10px auto;
+}
+
+.ul-flat * {
+  display: inline-block;
 }
 .text-weight {
   font-size: 40px;
   font-weight: 800;
 }
-
-.background-color {
-  background-color: yellow;
-}
-
-/*.margin {
-  margin: 0px auto 0px auto;
-} 
-.text-align {
-  text-align: center;
-}
-
-
- */
