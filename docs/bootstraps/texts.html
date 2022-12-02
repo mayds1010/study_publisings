@@ -2,10 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!---->
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--viewport:모니터의 사이즈 ,기기의 화면전체에대한 정보를 가지고 있음-->
     <title>Document</title>
     <link rel="stylesheet" href="./css/commons.css" />
     <link
@@ -19,23 +17,24 @@
     <div>
       <a href="./index.html" target="_self">index</a>
     </div>
-    <div class="display-4">Sizings</div>
-    <div class="display-5">Height</div>
-    <div style="height: 10rem">
-      <div class="h-25 d-inline-block">Height 25</div>
-      <!--d-inline-block:글자에 맞게 너비조절됨-->
-      <div class="h-50 d-inline-block">Height 50</div>
-      <div class="h-75 d-inline-block">Height 75</div>
-      <div class="h-100 d-inline-block">Height 100</div>
+    <div class="display-4">Texts</div>
+    <div>
+      <div class="fs-3">Text Wraps</div>
+      <div class="w-25 text-nowrap">This text should wrap.</div>
+      <div class="w-25 text-truncate">
+        This text should wrap. This text should wrap.
+      </div><!--글이 잘려 나오는..-->
+      <div class="w-25 text-wrap badge bg-primary">
+        bage This text should wrap.
+      </div>
+    </div>
     </div>
     <div>
-      <div class="display-5">Width</div>
-      <div class="w-75">
-        <div style="width: 10rem">fixed width</div>
-        <div class="w-25 text-nowrap">sizings width 25</div>
-        <div class="w-50">sizings width 50</div>
-        <div class="w-100">sizings width 100</div>
-      </div>
+      <div class="text-lowercase">LOWERCASED</div>
+      <!--글자를 소문자로-->
+      <div class="text-uppercase">Uppercased</div>
+      <!--글자를 대문자로-->
+      <div class="text-capitalize">capitalized</div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
