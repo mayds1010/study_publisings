@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/commons.css" />
+    <!-- <link rel="stylesheet" href="./css/commons.css" /> -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,15 +14,64 @@
     />
   </head>
   <body>
-    <div class="fs-2">Forms</div>
-    <div>
-      <label for="" class="form-lable">Email</label>
-      <input type="email" name="" id="" class="form-control" />
+    <div class="container-fluid">
+      <div class="row mb-2">
+        <div class="col">
+          <label for="" class="form-label">Email</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+        <div class="col">
+          <label for="" class="form-label">Password</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+
+      <div class="mb-2">
+        <label for="" class="form-label">Address</label>
+        <input type="text" class="form-control" placeholder="1234 main St" />
+      </div>
+
+      <div class="mb-3">
+        <label for="" class="form-label">Address 2</label>
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Apartment, studio, or floor"
+        />
+      </div>
+
+      <div class="row mb-2">
+        <div class="col">
+          <label for="" class="form-label">City</label>
+          <input type="text" class="form-control" />
+        </div>
+        <div class="col">
+          <label for="" class="form-label">State</label>
+          <select name="" id="" class="form-select">
+            <option selected value="default">Choose..</option>
+            <option value="value1">New York</option>
+            <option value="value2">seoul</option>
+          </select>
+        </div>
+        <div class="col">
+          <label for="" class="form-label">Zip</label>
+          <input type="text" class="form-control" name="" id="" />
+        </div>
+      </div>
+      <div>
+        <input type="checkbox" class="checkbox" name="" id="checkbox" />
+        <label class="form-label" for="checkbox">Check me out</label>
+      </div>
+
+      <div>
+        <button class="btn btn-primary">Sign in</button>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <a href="./index.html" target="_self">index</a>
   </body>
 </html>
