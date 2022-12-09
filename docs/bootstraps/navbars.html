@@ -14,20 +14,121 @@
     />
   </head>
   <body>
-    <div class="fs-3">Navigations Bar</div>
-    <div class="container">
-      <nav class="navbar">
-        <a href="" class="navbar-brand"
-          ><img
+    <div class="fs-3">Navigations Bar with collapse</div>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <!--navbar-expand-sm 메뉴버튼을 숨기는-->
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
             alt=""
+            srcset=""
             width="40"
           />
-          Brand</a
-        >
-        <div class="navbar"></div>
-      </nav>
-    </div>
+          Brend
+        </a>
+        <a href="#collapseId" class="navbar-toggler" data-bs-toggle="collapse"
+          ><span class="navbar-toggler-icon"></span
+        ></a>
+        <div class="collapse navbar-collapse" id="collapseId">
+          <div class="navbar-nav">
+            <a href="" class="nav-link">Home</a>
+            <a href="" class="nav-link">Feature</a>
+            <a href="" class="nav-link">Pricing</a>
+          </div>
+          <div class="d-flex">
+            <a href="" class="btn btn-primary">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="fs-3">Navigations Bar with dropdown</div>
+    <nav class="navbar navbar-expand bg-primary navbar-primary opacity-75">
+      <!--bg-primary navbar-primary 앞과 뒤가 같은 색이어야함-->
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt=""
+            srcset=""
+            width="40"
+          />
+          Brend
+        </a>
+        <div class="navbar-nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+          <div class="nav-item">
+            <div class="dropdown">
+              <a
+                href="#dropdownId"
+                class="dropdown-toggle nav-link"
+                data-bs-toggle="dropdown"
+                >dropdown</a
+              >
+              <div id="dropdownId" class="dropdown-menu">
+                <a href="" class="dropdown-item">One Menu</a>
+                <a href="" class="dropdown-item">Two Menu</a>
+                <a href="" class="dropdown-item">Three Menu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="fs-3">Navigations Bar with color</div>
+    <nav class="navbar navbar-expand bg-primary navbar-primary opacity-75">
+      <!--bg-primary navbar-primary 앞과 뒤가 같은 색이어야함-->
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt=""
+            srcset=""
+            width="40"
+          />
+          Brend
+        </a>
+        <div class="navbar-nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="fs-3">Navigations Bar with brand</div>
+    <nav class="navbar navbar-expand bg-light">
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            alt=""
+            srcset=""
+            width="40"
+          />
+          Brend
+        </a>
+        <div class="navbar-nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+        </div>
+      </div>
+    </nav>
+    <hr />
+    <div class="fs-3">Navigations Bar basic</div>
+    <nav class="navbar navbar-expand bg-light">
+      <div class="navbar-nav">
+        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link">Feature</a>
+        <a href="" class="nav-link">Pricing</a>
+      </div>
+    </nav>
+
     <hr class="hr" />
 
     <script
